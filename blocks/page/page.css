@@ -5,6 +5,7 @@
     background-color: #2A2C2F;
     font-family: 'Inter';
     font-weight: normal;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,6 +16,7 @@
         background-color: #2A2C2F;
         font-family: 'Inter';
         font-weight: normal;
+        margin: 0 auto;
     }
 }
 
@@ -26,6 +28,7 @@
         background-color: #2A2C2F;
         font-family: 'Inter';
         font-weight: normal;
+        margin: 0 auto;
     }
 }
 
@@ -38,5 +41,6 @@
         background-color: #2A2C2F;
         font-family: 'Inter';
         font-weight: normal;
+        margin: 0 auto;
     }
 }
