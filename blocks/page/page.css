@@ -35,7 +35,6 @@
 @media screen and (max-width: 320px) {
     .page {
         max-width: 320px;
-        margin: 0 auto; 
         padding: 16px 0;
         color: #FFFFFF;
         background-color: #2A2C2F;
