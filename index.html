@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,21 +8,22 @@
     <link rel="stylesheet" href="./index.css">
     <title>Путешествия по России</title>
 </head>
+
 <body>
     <div class="page">
-        <header class="header page__header">
+        <header class="header">
             <img class="header__logo" src="./image/logo.svg" alt="логотип 'Россия'">
-            <div class="header__links"><a class="link header__link" href="#">Ru</a><a class="link header__link"
-                    href="#">En</a>
-            </div>
+            <ul class="header__links">
+                <li><a class="link header__link" href="#">Ru</a></li>
+                <li><a class="link header__link" href="#">En</a></li>
+            </ul>
         </header>
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         </section>
         <section class="railway">
-            <img src="./image/train.jpg" alt="поезд" class="railway__train">
-            <img src="./image/map.svg" alt="карта" class="railway__map">
+            <img src="./image/map.jpg" alt="карта" class="railway__map">
             <p class="railway__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro">
@@ -34,26 +36,26 @@
                 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
                 отпуска.</p>
             <ul class="intro__list">
-                <li>Часовых поясов</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li> Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li><span class="intro__list-title">Часовых поясов</span> 11</li>
+                <li><span class="intro__list-title">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li><span class="intro__list-title">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li><span class="intro__list-title">Природных заповедников</span> 105</li>
+                <li><span class="intro__list-title">Аэропортов</span> 241</li>
             </ul>
         </section>
         <section class="gallery">
-            <img src="./image/item.jpg" alt="фото 1" class="gallery__photo">
-            <img src="./image/item-1.jpg" alt="фото 2" class="gallery__photo">
-            <img src="./image/item-2.jpg" alt="фото 3" class="gallery__photo">
-            <img src="./image/item-3.jpg" alt="фото 4" class="gallery__photo">
-            <img src="./image/item-4.jpg" alt="фото 5" class="gallery__photo">
-            <img src="./image/item-5.jpg" alt="фото 6" class="gallery__photo">
-            <img src="./image/item-6.jpg" alt="фото 7" class="gallery__photo">
-            <img src="./image/item-7.jpg" alt="фото 8" class="gallery__photo">
-            <img src="./image/item-8.jpg" alt="фото 9" class="gallery__photo">
-            <img src="./image/item-9.jpg" alt="фото 10" class="gallery__photo">
-            <img src="./image/item-10.jpg" alt="фото 11" class="gallery__photo">
-            <img src="./image/item-11.jpg" alt="фото 12" class="gallery__photo">
+            <img src="./image/item.jpg" alt="поезд" class="gallery__photo">
+            <img src="./image/item-1.jpg" alt="вершина" class="gallery__photo">
+            <img src="./image/item-2.jpg" alt="волк" class="gallery__photo">
+            <img src="./image/item-3.jpg" alt="лес" class="gallery__photo">
+            <img src="./image/item-4.jpg" alt="камера" class="gallery__photo">
+            <img src="./image/item-5.jpg" alt="побережье" class="gallery__photo">
+            <img src="./image/item-6.jpg" alt="гора" class="gallery__photo">
+            <img src="./image/item-7.jpg" alt="знак" class="gallery__photo">
+            <img src="./image/item-8.jpg" alt="сопки" class="gallery__photo">
+            <img src="./image/item-9.jpg" alt="вулкан" class="gallery__photo">
+            <img src="./image/item-10.jpg" alt="уступ" class="gallery__photo">
+            <img src="./image/item-11.jpg" alt="туман" class="gallery__photo">
         </section>
         <section class="places">
             <div class="place">
@@ -158,16 +160,17 @@
                 </div>
             </div>
         </section>
+
         <section class="cover">
-            <img src="./image/__background.jpg" alt="закат" class="cover__image">
-            <div class="cover__content">
-                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="link">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="link cover__link">
+                <div class="cover__content">
                     <h2 class="cover__title">До Байкала «на собаках»</h2>
-                </a>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе —
-                    путешествие от столицы до Байкала на электричках.</p>
-            </div>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе —
+                        путешествие от столицы до Байкала на электричках.</p>
+                </div>
+            </a>
         </section>
+
         <footer class="footer">
             <ul class="footer__links">
                 <li class="footer__link"><a href="https://yandex.ru/maps" class="link link-footer">Карты</a></li>
@@ -183,4 +186,5 @@
         </footer>
     </div>
 </body>
+
 </html>
