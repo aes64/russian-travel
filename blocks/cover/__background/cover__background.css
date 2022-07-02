@@ -2,8 +2,9 @@
     background-image: url(../../../image/__background.jpg);
     background-size: cover;
     background-position: center;
+    position: absolute;
     width: 100%;
-    padding-top: 62%;
+    height: 100%;
     opacity: 0.7;
     transition: 0.3s;
 }
