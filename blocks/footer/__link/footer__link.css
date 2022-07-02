@@ -1,20 +1,17 @@
 .footer__link {
-    text-decoration: none;
-    margin: 0 18px 0 0;
-    padding: 0;
     font-size: 16px;
     line-height: 18px;
-    text-align: left;
     font-weight: 400;
-}
-
-.footer__link:last-of-type {
-    margin: 0;
-}
-
-@media screen and (max-width: 320px) {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .335s ease-in-out;
+  }
+  .footer__link:hover {
+    opacity: .8;
+  }
+  @media (max-width: 425px) {
     .footer__link {
-        margin: 0;
-        margin-bottom: 32px;
+      font-size: 24px;
+      line-height: 24px;
     }
-}
+  }

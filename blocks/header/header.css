@@ -6,8 +6,20 @@
     justify-content: space-between;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+     padding: 0 auto 48px;
+    }
+  }
+
 @media screen and (max-width: 768px) {
     .header {
         padding: 0 24px;
     }
 }
+
+@media (max-width: 425px) {
+    .header {
+      padding: 0 auto 48px;
+    }
+  }
