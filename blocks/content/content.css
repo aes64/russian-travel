@@ -1,27 +1,27 @@
-.page {
+.content {
     max-width: 1280px;
     padding: 28px 0;
     color: #FFFFFF;
     background-color: #2A2C2F;
-    font-family: 'Inter', Arial, sans-serif;;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: normal;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-    .page {
+    .content {
         max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .page {
+    .content {
         max-width: 768px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .page {
+    .content {
         max-width: 320px;
         padding: 16px 0;
     }
