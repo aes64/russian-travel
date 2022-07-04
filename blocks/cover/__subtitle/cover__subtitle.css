@@ -7,6 +7,7 @@
     max-width: 360px;
     text-align: center;
     letter-spacing: 0em;
+    z-index: 3;
 }
 
 @media screen and (max-width: 320px) {
@@ -14,6 +15,6 @@
         margin: 16px auto 0;
         font-size: 14px;
         line-height: 16px;
-        min-width: 288px;
+        min-width: 250px;
     }
 }

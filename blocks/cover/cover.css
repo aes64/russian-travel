@@ -1,7 +1,7 @@
 .cover {
-    max-width: 1184px;
-    min-height: 740px;
+    max-width: 1280px;
     margin: 0 auto 92px;
+    padding: 0 48px;
     display: flex;
     flex-direction: column;
 } 
@@ -9,6 +9,7 @@
 @media screen and (max-width: 1024px) {
     .cover {
       max-width: 100%;
+      padding: 0;
     }
   }
 
