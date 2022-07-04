@@ -20,6 +20,6 @@
 
 @media (max-width: 425px) {
     .header {
-      padding: 0 auto 48px;
+      padding: 0 16px 48px;
     }
   }
