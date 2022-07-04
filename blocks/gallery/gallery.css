@@ -1,6 +1,5 @@
 .gallery {
     max-width: 1184px;
-    padding: 0;
     display: grid;
     padding: 0 48px;
     grid-template-columns:repeat(auto-fit, minmax(200px, 284px));
