@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     align-self: flex-end;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 @media screen and (max-width:1024px){

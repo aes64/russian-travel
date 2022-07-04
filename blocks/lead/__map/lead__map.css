@@ -2,3 +2,9 @@
     margin: 64px auto 0;
     width: 100%;
 }
+
+@media screen and (max-width:1024px){
+    .lead__map {
+        margin: 56px auto 0;
+    } 
+}
